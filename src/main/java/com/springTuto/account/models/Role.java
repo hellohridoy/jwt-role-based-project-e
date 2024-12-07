@@ -1,5 +1,7 @@
 package com.springTuto.account.models;
 
+import jakarta.validation.constraints.NotEmpty;
+
 import java.util.Collection;
 
 import javax.persistence.Entity;
@@ -8,7 +10,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name = "acounts_role")
